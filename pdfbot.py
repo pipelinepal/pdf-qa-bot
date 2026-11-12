@@ -3,8 +3,8 @@ from pypdf import PdfReader
 
 with open("key.txt") as f:
     key = f.read().strip()
-
-reader = PdfReader("sample.pdf")
+filename = input("enter the name of the PDF file:")
+reader = PdfReader(filename)
 text = ""
 for page in reader.pages:
     text = text + page.extract_text()
