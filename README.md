@@ -24,3 +24,7 @@ Python, JSON, Gemini API, pypdf
 
 ## Note
 Works with PDFs that contain real text. Scanned PDFs made of images are not supported.
+
+
+## Demo
+https://youtu.be/ln5vfWHfFYo
